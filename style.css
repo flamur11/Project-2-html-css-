@@ -1,0 +1,260 @@
+@charset "uf-8"
+
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+#nav {
+	background: black;
+	width: 100%;
+	height: 64px;
+	line-height: 60px;
+}
+
+#nav h1 {
+	float: left;
+}
+
+#nav h1 a {
+	text-decoration: none;
+	color: white;
+	margin-left: 25px;
+	font-family: 'Dancing Script', cursive;
+
+}
+#nav ul {
+	float: right;
+
+}
+
+#nav ul li {
+	text-decoration: none;
+	list-style-type: none;
+	display: inline-block;
+}
+
+#nav ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 25px;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+#nav ul li :hover {
+	background: red;
+	transition: all ease-in-out 0.40s;
+}
+
+#hello {
+	background: red;
+}
+
+#hello1 {
+	background: red;
+	height: 5px
+}
+
+#hello2 {
+	/*background: url(images/black6.jpg) no-repeat;
+	width: 300px;
+	height: 250px; */
+	position: absolute;
+	top: 50%;
+	left: 20%;
+	transform: translate(-50%,-50%);
+	background-size: cover;
+}
+
+.sec1{
+	height: 500px;
+	background: #222;
+	animation: sec 5s;
+}
+
+@keyframes sec {
+	form{
+		background: #222;
+		transition: .5s;
+	}
+	to{
+		background:#999;
+		font-size: 120%;
+		letter-spacing: 10px;
+		text-align: center;
+		transition: .5s
+	} 
+}
+
+.span{
+	color: white;
+	position: absolute;top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+.avatar {
+  vertical-align: middle;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: absolute;top: 50%;left: 20%;transform: translate(-50%,-50%);
+
+}
+
+
+.span1{
+	color: white;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-60%);
+
+}
+.footer{
+	
+}
+.span3{
+	position: absolute;
+	left: 50%;
+	top: 20%;
+	color: white;
+	font-weight: bold;position: relative;
+	height: 100px;
+	width: 100%;
+	background: #444;
+	transform: translate(-50%,-20%);
+}
+
+.name{
+	width:200px;
+	height: 30px;
+	outline:none;
+	font-weight: bold;
+	font-size: 150%;
+	position: relative;
+	left: 18.5%;
+	top: 34px;
+
+}
+
+.surname{
+	width:200px;
+	height: 30px;
+	outline:none;
+	font-weight: bold;
+	font-size: 150%;
+	position: relative;
+	left: 70%;
+
+}
+
+.email	{
+	width:200px;
+	height: 30px;
+	outline:none;
+	font-weight: bold;
+	font-size: 150%;
+	position: relative;left: 18.5%;
+	top: 5px;
+	width: 406px;
+}
+
+
+
+.output{
+	position: relative;
+	top: 150px;
+	left: 40%;
+	transform: translate(50px,50px);
+	width: 400px;
+}
+
+
+.text{
+	width:200px;
+	height: 150px;
+	outline:none;
+	font-weight: bold;
+	font-size: 150%;
+	position: relative;left: 18.5%;
+	top: 15px;
+	width: 406px;
+}
+
+.button{
+	position: relative;
+	left: 45%;
+	top: 25px;
+	width: 200px;
+	height: 30px;
+}
+
+.nav{
+	text-decoration: none;
+	color: white;
+	margin-left: 25px;
+	font-family: 'Dancing Script', cursive;
+}
+
+.section {
+	text-align: center;
+}
+
+.section li a {
+	text-decoration: none;
+	color: white;
+}
+
+.section li {
+	line-height: 60px;
+	border: 2px solid white;
+}
+
+.btnas{
+	border: 2px solid white;
+	border-radius: 10px;
+	background-color: white;
+	width: 140px;
+	height: 40px
+}
+
+.btnas .btnastxt {
+	color: black;
+	font-weight: bold;
+}
+
+.section li a:hover {
+	color: red;
+}
+
+.btnastxt:hover {
+	color: white;
+}
+
+.btnas:hover{
+	background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
